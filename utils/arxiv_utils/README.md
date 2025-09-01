@@ -32,3 +32,6 @@ test.md
 pdf save name: first paper will use full title, second paper will use alias title -- "ResNet"
 
 
+# Acknowledgements
+
+- https://github.com/wilmerwang/autoLiterature
