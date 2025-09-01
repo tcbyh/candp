@@ -1,4 +1,6 @@
-# arxiv_utils
+# arxiv_liter
+
+arxiv 文献整理工具
 
 - **fetch**: download arxiv paper pdf with url
 - **sync**: collect and organize paper urls in markdown, automatically download pdfs and update markdown content
@@ -8,17 +10,17 @@
 requirements: Python >= 3.9
 
 ```
-git clone git@github.com:huxycn/arxiv_utils.git
-cd arxiv_utils
-pip install .
+git clone https://github.com/tcbyh/candp.git
+cd candp
+pip install [-v -e] toolbox/arxiv_liter
 ```
 
 ## Example
 
 ```
-arxiver fetch https://arxiv.org/abs/1706.03762
+arxiv_liter fetch https://arxiv.org/abs/1706.03762
 
-arxiver sync ./tests/mds/test.md
+arxiv_liter sync ./tests/mds/test.md
 ```
 
 ## Rule

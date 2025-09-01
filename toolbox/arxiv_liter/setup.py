@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='arxiv_utils',
+    name='arxiv_liter',
     version='0.0.1',
-    author='huxiaoyang',
-    author_email='huxycn@qq.com',
+    author='tcbyh',
+    author_email='545960442@qq.com',
 
     install_requires=[
         'fire',
@@ -19,7 +19,7 @@ setup(
 
     entry_points={
       'console_scripts': [
-          'arxiv_utils = arxiv_utils.main:main'
+          'arxiv_liter = arxiv_liter.main:main'
       ]
     },
 
